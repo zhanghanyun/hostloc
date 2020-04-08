@@ -1,16 +1,15 @@
 
-<p align="center">
-  <img src="https://github.com/zhanghanyun/hostloc/workflows/Go/badge.svg?branch=master" />
-  <img src="https://img.shields.io/badge/license-MIT-blueviolet.svg" />
-  <img src="https://tokei.rs/b1/github/zhanghanyun/hostloc?category=code" />
-</p>
-&nbsp;
+![](https://github.com/zhanghanyun/hostloc/workflows/Go/badge.svg?branch=master)
+![](https://img.shields.io/badge/license-MIT-blueviolet.svg)
+![](https://tokei.rs/b1/github/zhanghanyun/hostloc?category=code)
 
-## HOSTLOC
+---
+
+## Hostloc
 
 hostloc 刷分神器 
 
-## USAGE
+## Usage
 
 当前目录添加一个 config.yml 文件用于保存账号密码
 
