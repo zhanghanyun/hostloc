@@ -1,5 +1,10 @@
-# hostloc
-hostloc 刷分神器 golang 版
+
+![Go](https://github.com/zhanghanyun/hostloc/workflows/Go/badge.svg?branch=master)
+![](https://img.shields.io/badge/license-MIT-blueviolet.svg)
+![](https://tokei.rs/b1/github/zhanghanyun/hostloc?category=code)
+
+## HOSTLOC
+hostloc 刷分神器 
 
 ## USAGE
 
