@@ -3,7 +3,6 @@
 ![](https://img.shields.io/badge/license-MIT-blueviolet.svg)
 ![](https://tokei.rs/b1/github/zhanghanyun/hostloc?category=code)
 
----
 
 ## Hostloc
 
