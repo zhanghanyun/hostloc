@@ -4,9 +4,9 @@
 ![](https://tokei.rs/b1/github/zhanghanyun/hostloc?category=code)
 
 
-## Hostloc
+# Hostloc Tool
 
-hostloc  
+Hostloc  
 
 ## Usage
 
