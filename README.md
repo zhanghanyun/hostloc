@@ -12,4 +12,4 @@ Hostloc
 
 在当前目录添加一个 config.yml 文件用于保存账号密码
 
-格式 username: password 
+Format username: password 
