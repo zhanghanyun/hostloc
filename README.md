@@ -6,10 +6,10 @@
 
 # Hostloc Tool
 
-Hostloc  
+Hostloc  view tool
 
 ## Usage
 
-在当前目录添加一个 config.yml 文件用于保存账号密码
+Add config.yml in current directory
 
 Format username: password 

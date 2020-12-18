@@ -1,5 +1,7 @@
 name: remote ssh command
-on: [push]
+on:
+  release:
+    types: [created]
 jobs:
   build:
     name: Build
