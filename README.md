@@ -6,7 +6,7 @@
 
 # Hostloc Tool
 
-Hostloc  view tool
+A website tool for [Hostloc](https://hostloc.com) to help improve your experience
 
 ## Usage
 
