@@ -41,7 +41,7 @@ func login(name, password string) {
 		panic(err)
 	}
 
-	resp, err := client.Get(creditUrl)
+	resp, err := client.Post(creditUrl)
 	if err != nil {
 		panic(err)
 	}
@@ -53,7 +53,7 @@ func login(name, password string) {
 		wg.Add(1)
 		rand.Seed(int64(i))
 		id := rand.Intn(60000)
-		go viewSpace(client,id)
+		go viewSpace(client, id)
 	}
 
 	doc.Find(".creditl.mtm.bbda.cl").Each(func(i int, s *goquery.Selection) {
@@ -65,7 +65,7 @@ func login(name, password string) {
 	wg.Done()
 }
 
-func viewSpace(client *http.Client,id int) {
+func viewSpace(client *http.Client, id int) {
 	spaceUrl := "https://www.hostloc.com/space-uid-" + strconv.Itoa(id) + ".html"
 	_, err := client.Get(spaceUrl)
 	if err != nil {
