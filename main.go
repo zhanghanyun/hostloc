@@ -60,7 +60,9 @@ func login(name, password string) {
 		money := s.Find("li").Eq(0).Text()
 		credit := s.Find("li").Eq(1).Text()
 		integral := s.Find("li").Eq(2).Text()
-		log.Println(name, money, credit, integral)
+		abs := s.Find("li").Eq(2).Text()
+		addr := s.Find("li").Eq(2).Text()
+		log.Println(name, money, credit, integral, abs, addr)
 	})
 	wg.Done()
 }
