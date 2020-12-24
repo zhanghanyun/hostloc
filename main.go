@@ -62,6 +62,7 @@ func login(name, password string) {
 		integral := s.Find("li").Eq(2).Text()
 		abs := s.Find("li").Eq(2).Text()
 		addr := s.Find("li").Eq(2).Text()
+		article := s.Find("article").Eq(2).Text()
 		log.Println(name, money, credit, integral, abs, addr)
 	})
 	wg.Done()
