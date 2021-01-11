@@ -10,6 +10,7 @@ import (
 	"net/url"
 	"strconv"
 	"sync"
+	"net/tls"
 )
 
 var wg sync.WaitGroup
